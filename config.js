@@ -14,20 +14,20 @@ global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github = process.env.GITHUB || "https://github.com/HyHamza/BYTE-MD";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/logo.jpg";
+global.gurl = process.env.GURL || "https://chat.whatsapp.com/IN7uvtN4rVf8Z1DBWnUFn3";
+global.website = process.env.GURL || "https://chat.whatsapp.com/IN7uvtN4rVf8Z1DBWnUFn3";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/a512681ac12882566c520.jpg";
 global.devs = "923072380380";
-global.sudo = process.env.SUDO || "923072380380";
-global.owner = process.env.OWNER_NUMBER || "923072380380";
+global.sudo = process.env.SUDO || "923142212383";
+global.owner = process.env.OWNER_NUMBER || "923142212383";
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.gdbye = process.env.GOODBYE || "true";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
-global.userImages = process.env.USER_IMAGES || "";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/a512681ac12882566c520.jpg";
 global.waPresence = process.env.WAPRESENCE || "online";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -45,10 +45,10 @@ global.SESSION_ID =
   "Your session ID" //Make sure session id starts with Byte;;;
 module.exports = {
   menu: process.env.MENU || "",
-  HANDLERS: process.env.PREFIX || ",",
+  HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "*Powered By TalkDrove*",
+  caption: process.env.CAPTION || "*Powered By SNAPE*",
   author: process.env.PACK_AUTHER || "TalkDrove",
   packname: process.env.PACK_NAME || "♥️",
   botname: process.env.BOT_NAME || "BYTE-MD",
